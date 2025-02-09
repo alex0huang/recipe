@@ -2,7 +2,7 @@
 using namespace std;
 
 class Ingredient {
-pubplic:
+public:
 	string name;
 	string quantity;
 	Ingredient{
