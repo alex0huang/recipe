@@ -12,7 +12,7 @@ pubplic:
 		quantity = "unknown"
 		unit = "unknown"}
 	void displayIngredient() {
-		cout << "Name of Ingredient:" << name << "Amount of Ingredient :" << quantity << endl;
+		cout << "Name of Ingredient:" << name << "\nAmount of Ingredient :" << quantity << endl;
 	}
 	int maxingredientshow{
 		return maxingredient;
