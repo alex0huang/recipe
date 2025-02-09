@@ -18,5 +18,6 @@ private:
 	string name;
 	int p = maxingredientshow;
 	Ingredient ingredients[p];
+	double amountPerPortion[p];
 	int ingredientCount;
 };
