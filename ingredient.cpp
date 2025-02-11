@@ -3,7 +3,7 @@
 using namespace std;
 
 class Ingredient {
-pubplic:
+public:
 	string name;
 	double quantity;
 	string unit;
@@ -14,10 +14,10 @@ pubplic:
 	void displayIngredient() {
 		cout << "Name of Ingredient:" << name << "\nAmount of Ingredient :" << quantity << endl;
 	}
-	int maxingredientshow{
+	int maxIngredientShow{
 		return maxingredient;
 
 	}
 private:
-	int maxingredient;
+	int maxIngredient;
 };
