@@ -17,7 +17,7 @@ class dish {
 			ingredientCount = 0;
 			
 		}
-		void addIngredient(string name, dounble quantity£¬ string unint) {
+		void addIngredient(string name, dounble quantityÂ£Â¬ string unint) {
 			asscert(ingredientCount<maxingredient);
 			ingredients[maxingredient] = Ingredient(name,quantity,unit);
 		}
