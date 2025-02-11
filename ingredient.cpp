@@ -6,6 +6,7 @@ class Ingredient {
 public:
 	string name;
 	double quantity;
+	boolean perishable;
 	string unit;
 	Ingredient{
 		name = "unknown"
