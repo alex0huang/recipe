@@ -19,7 +19,7 @@ class dish {
 			
 		}
 		void addIngredient(string name, dounble quantity£¬ string unint) {
-			asscert(ingredientCount<maxingredient);
+			assert(ingredientCount<maxingredient);
 			ingredients[maxingredient] = Ingredient(name,quantity,unit);
 		}
 		void display(){
