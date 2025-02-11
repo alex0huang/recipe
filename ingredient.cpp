@@ -5,10 +5,11 @@ using namespace std;
 class Ingredient {
 public:
 	string name;
+	string unit;
 	double quantity;
 	bool perishable;
-	string unit;
-	Ingredient{
+	
+	Ingredient(){
 		name = "unknown"
 		quantity = "unknown"
 		unit = "unknown"}
