@@ -11,6 +11,7 @@ class dish {
 		Ingredient ingredients[maxingredient];
 		double amountPerPortion[maxingredient];
 		int ingredientCount;
+		int DailyCal ;
 		
 	public:
 		Dish(string n , double cal) : name(n) calories (cal){
