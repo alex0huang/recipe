@@ -1,6 +1,7 @@
 #include <iostream>
 #include "ingredient.h"
 #include <cassert>
+#include <vector>
 using namespace std;
 
 class dish {
