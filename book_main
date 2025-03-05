@@ -3,7 +3,17 @@
 #include "dish.h"
 #include "ingredient.h"
 
+const int MAX_DISHES = 50;
+
+// This main will run though multple scenarios using all of our implementations
+// Simulalting how a user would interact with the program on a daily/weekly basis
 int main() {
+
+    // 'Book' will basically be three arrays of type Dish
+    Dish meals[MAX_DISHES];
+    Dish snacks[MAX_DISHES];
+    Dish dessrts[MAX_DISHES];
+    // Possibly switch to linked list? We can figure that out later...
 
   
 }

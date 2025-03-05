@@ -1,35 +1,24 @@
+#include "dish.h"
 #include <iostream>
-#include "ingredient.h"
 #include <cassert>
 #include <vector>
+
 using namespace std;
 
-class dish {
-	protected: 
-		string name; 
-		double calories;
-		string name;
-		Ingredient ingredients[maxingredient];
-		double amountPerPortion[maxingredient];
-		int ingredientCount;
-		int DailyCal ;
+class Dish {
+	// Editors
+    // Adds ingredient in given qunittiy to dish serached by name
+	void add_ingredient(Ingredient new_ingredient);
+    void change_dish_name(string new_name);
 		
-	public:
-		Dish(string n , double cal) : name(n) calories (cal){
-			ingredientCount = 0;
-			
-		}
-		void addIngredient(string name, dounble quantity£¬ string unint) {
-			assert(ingredientCount<maxingredient);
-			ingredients[maxingredient] = Ingredient(name,quantity,unit);
-		}
-		void display(){
-			cout << "Dish:" << name << endl;
-			cout <<"Amount of Calories per serving"<< calories << endl;
-			cout << "Ingredients in dish "<< endl;
-			for (int i = 0; i < ingredientCount; ++i) {
-				cout << ingredients[i].name << ":" << ingredients[i].quantity << ingredient[i].unit << endl;
+    // Viewers
+    // Display list of ingredients
+    void display_ingredients();
+    // Display ingredients and quanitites for single portion
+    void display_ingredients_values();
 
-			}
-		}
+        // Calculators
+        // Prints out an array of ingredients with quanitities based on desired quantity
+        void ingredients_by_weight(double desired_quantity);
+
 };
